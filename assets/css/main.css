@@ -174,10 +174,11 @@ static-accepts-custom        : .png
 			width: max-content;
 			padding-bottom: 0.5rem;
 			margin: 0 0 2rem 0;
+			color: #4686c6ce;
 		}
 
 	h1 {
-		font-size: 2.25rem;
+		font-size: 2.65rem;
 		line-height: 1.3;
 		letter-spacing: 0.5rem;
 	}
@@ -189,7 +190,7 @@ static-accepts-custom        : .png
 	}
 
 	h3 {
-		font-size: 1rem;
+		font-size: 1.2rem;
 	}
 
 	h4 {
@@ -696,6 +697,10 @@ static-accepts-custom        : .png
 
 		ul li {
 			padding-left: 0.5em;
+		}
+
+		ul.bullet li:not(:last-child) {
+			padding-bottom: 0.45em;
 		}
 
 		ul.alt {
