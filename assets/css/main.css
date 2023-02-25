@@ -1074,7 +1074,7 @@ static-accepts-custom        : .png
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
+			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.75), rgba(19, 21, 25, 0.75)), url("../../images/overlay.png");
 			background-size: auto, 256px 256px;
 			background-position: center, center;
 			background-repeat: no-repeat, repeat;
@@ -1095,6 +1095,8 @@ static-accepts-custom        : .png
 			background-size: cover;
 			background-repeat: no-repeat;
 			z-index: 1;
+			filter: blur(6px);
+			-webkit-filter: blur(6px);
 		}
 
 		body.is-article-visible #bg:after {
